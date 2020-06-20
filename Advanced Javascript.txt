@@ -1,0 +1,68 @@
+Advanced Javascript
+	 ![Foundation](attached://a73ca5ebcf7d2d9432150d2c36600b56 150x150) 
+		**Javascript Engine**
+		**Javascript Runtime**
+		**Interpreter/ Compiler/ JIT Compiler**
+		**Writing Optimized Code**
+		**Call Stack + Memory Heap**
+		**Stack Overflow + Memory Leaks**
+		**Garbage Collection**
+		**Node.js**
+		**Single Threaded Model**
+		**Types In JavaScript** 
+			**Static vs Dynamically Typed**
+			**Primitive Types**
+			 ![Foundation (1)](attached://4fbc94df0825ed655e2a4137c2c5f5dc 150x150) 
+				**1. Closures**
+				**2. Prototypal Inheritance**
+				
+					 ![Foundation (2)](attached://f80e171977d2a8992c586f7742bc8fab 150x150) 
+						**Object Oriented Programming**
+							**this keyword**
+							**new keyword**
+							**Prototype**
+							**ES6 Classes**
+							**Java**
+							**Inheritance**
+							**Object.create()**
+							**Private vs Public**
+							**4 Principles of OOP**
+						 ![Foundation (6)](attached://b186e5da8dde8a8a859b167b4bda5f21 150x150) 
+							**Asynchronous Javascript**
+								Web APIs
+								Async/Await
+								Callbacks
+								Microtask Queue (Job Queue)
+								Task Queue (Callback Queue)
+								Promises
+								Event loop
+							**Error Handling**
+							**Modules in Javascript**
+								Native ES Modules
+								CommonJS
+								UMD
+								AMD
+								IIFE
+						**Composition vs Inheritance**
+						**Functional Programming**
+							**Curry**
+							**Partial Application**
+							**Pure Functions**
+							**Referential Transparency**
+							**Compose**
+							**Pipe**
+				**Higher Order Functions**
+				**Functions vs Objects**
+				**Scheme + Java**
+			**Pass By Reference vs Pass by Value**
+			**Type Coercion**
+			**Arrays, Functions, Objects**
+		**Execution Context**
+		**Lexical Environment**
+		**Scope Chain**
+		**Hoisting**
+		**Function Invocation**
+		**Function Scope vs Block Scope**
+		**Dynamic vs Lexical Scope**
+		**this - call, apply, bind**
+		**IIFE**

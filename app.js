@@ -29,18 +29,15 @@ this.addEventListeners()
 
 //All eventListener methods.
 addEventListeners(){
-	//1) the click event (invokes callback func).
+	//1) the click event invokes callback func.
 	document.body.addEventListener('click', event => {
 		this.handleFormClick(event)
 		this.selectNote(event)
 		this.openModal(event)
 		this.deleteNote(event)
-		
 	})
 	//2) the submit event
 	this.$form.addEventListener('submit', event =>{
-
-
 		// prevents auto clear.
 		event.preventDefault() 
 		//grabs input value from note-title + assigns to var.
@@ -118,8 +115,7 @@ handleFormClick(event){
 		this.closeForm()
 	}
 }
-	//These methods controll the css styls 
-	//that generate the opening appearance.
+	//These methods controll the css styls that generate the opening appearance.
 openForm(){
 	this.$form.classList.add('form-open')
 	this.$noteTitle.style.display = 'block'
@@ -135,12 +131,12 @@ closeForm(){
 }
 
 //Generating the ability to edit notes in modal.
-//	open.
+	//open.
 openModal(event){
 	//'target.closest' gets the thing closest to where clicked.
 	// the ref ('.note') is the style given on the html below.
 if (event.target.matches('.toolbar-delete')) return;  
-
+	
 	if(event.target.closest('.note')){
 		this.$modal.classList.toggle('open-modal')
 		this.$modalTitle.value = this.title
@@ -257,7 +253,8 @@ displayNotes(){
 }
 new App()
 
-/* Notes. 
+/* ==============================================================================
+Notes 
 
 *. note.title/text i.e: "note" = the parameter passed in
 here to this method -.-the varName (title/text) above(submit event) where the input
@@ -266,5 +263,6 @@ values were assigned to.
 **. Logic used here: We want to set the id of each note by gauging the
 id of the last note. Therefore, check (via ternary) the length of
 notes array, if greater than 0, get the last id entry (length - 1) and
-increment it by 1. If the array is not greater than 0 just set it to
-1. */
+increment it by 1. If the array is not greater than 0 just set it to 1. 
+==================================================================================
+*/

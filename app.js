@@ -22,8 +22,7 @@ this.$modalCloseButton = document.querySelector('.modal-close-button')
 this.$colorTooltip = document.querySelector('#color-tooltip')
 
 
-//need to call the method in constructor so that it runs
-//upon opnening
+//need to call the method in constructor so that it runs upon opnening
 this.render()
 this.addEventListeners()
 }
